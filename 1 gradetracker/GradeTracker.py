@@ -17,7 +17,7 @@ students = {'Alex':[87,88,98],
 
 #Now we define functions. Functions encapsulate logic into reusable recipes that can be executed whenever we need them by calling their name with parentheses.
 def enterGrades():
-    nameToEnter = input('Student name: ')
+    nameToEnter = input('Grace Forthman: ')
     gradeToEnter = input('Grade: ')
     #This checks through the keys of the students dictionary to see if the name entered exactly matches any one in there.
     if nameToEnter in students:
